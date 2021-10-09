@@ -20,11 +20,15 @@
   },
   "homepage": "https://github.com/jaymaski/WebExportJS#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
     "bcryptjs": "^2.4.3",
     "concurrently": "^6.2.1",
     "config": "^3.3.6",
     "express": "^4.17.1",
     "express-validator": "^6.12.1",
+    "jquery": "^3.6.0",
     "jsonwebtoken": "^8.5.1",
     "nodemon": "^2.0.12",
     "request": "^2.88.2"

@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Dashboard from './routes/home/Dashboard';
+import Dashboard from './routes/home/Main/Main';
 import reportWebVitals from './reportWebVitals';
+
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
 
 ReactDOM.render(
   <React.StrictMode>

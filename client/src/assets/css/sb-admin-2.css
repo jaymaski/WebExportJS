@@ -9794,6 +9794,7 @@ a:focus {
 
 #wrapper {
   display: flex;
+  flex-direction: flex-row;
 }
 
 #wrapper #content-wrapper {
