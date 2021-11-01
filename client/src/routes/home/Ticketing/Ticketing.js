@@ -1,3 +1,6 @@
+import '../../../assets/css/sb-admin-2.min.css';
+import './Ticketing.scss';
+
 function Ticketing() {
     var testLoop = [];
 
@@ -29,7 +32,7 @@ function Ticketing() {
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
                     <h1 class="h3 mb-0 text-gray-800">Exportations</h1>
                     <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                            class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                            class="fas fa-download fa-sm text-white-50"></i> New Form </a>
                 </div>
 
                 {/* Content Row */}
@@ -103,7 +106,7 @@ function Ticketing() {
                 {/* Content Row */}
                 <div class="row">
                     {/* Area Chart */}
-                    <div class="col-xl-12">
+                    <div class="col-xl-12 ticket">
                         <div class="card shadow mb-4">
                             {/* Card Header - Dropdown */}
                             <div
